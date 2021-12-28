@@ -1,0 +1,25 @@
+{
+  "data_path": "/home/titan/workspace/zsd/dataset/Cifar/",
+  "train_path": "/home/titan/workspace/zsd/dataset/Cifar/",
+  "norm":"linf",
+  "epsilon": 0.03,
+  "learning_rate_G": 0.01,
+  "batch_size": 256,
+  "momentum": 0.9,
+  "epochs": 500,
+  "schedule": 50,
+  "gamma": 0.5,
+  "test_bs": 100,
+  "target": false,
+  "num_classes":10,
+  "target_class":0,
+  "test_target":true,
+
+  "save_suffix": "",
+  "model_name": ["vgg16","senet", "densenet"],
+  "target_model_name":["vgg19","resnet18"],
+  "margin": 200.0,
+  "log_interval": 10,
+  "model_path":"./cifar_checkpoints"
+}
+

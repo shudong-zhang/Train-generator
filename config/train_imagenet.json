@@ -1,0 +1,23 @@
+{
+  "data_path": "/home/shudong/dataset/imagenet/val_5000",
+  "train_path": "/home/shudong/dataset/imagenet/train_50000",
+  "norm":"linf",
+  "epsilon": 0.03,
+  "learning_rate_G": 0.01,
+  "batch_size": 32,
+  "momentum": 0.9,
+  "epochs": 100,
+  "schedule": 10,
+  "gamma": 0.5,
+  "test_bs": 32,
+  "target": true,
+  "num_classes":1000,
+  "target_class":0,
+  "test_target":true,
+
+  "save_suffix": "",
+  "model_name": ["VGG16", "Resnet18", "Squeezenet"],
+  "target_model_name":["VGG19","resnet50"],
+  "margin": 200.0,
+  "log_interval": 10
+}

@@ -1,0 +1,23 @@
+{
+  "data_path": "/media/ps/data/zsd/dataset/",
+  "train_path": "/media/ps/data/zsd/dataset/",
+  "epsilon": 0.3,
+  "learning_rate_G": 0.01,
+  "batch_size": 512,
+  "momentum": 0.9,
+  "epochs": 500,
+  "schedule": 10,
+  "gamma": 0.5,
+  "test_bs": 100,
+  "target": true,
+  "num_classes":10,
+  "target_class": 0,
+  "test_target":true,
+
+  "save_suffix": "",
+  "model_name": ["s1","s2"],
+  "target_model_name":["t1","t2"],
+  "margin": 200.0,
+  "log_interval": 10,
+  "model_path":"/media/ps/data/zsd/pytorch-train-master/mnist_checkpoints"
+}

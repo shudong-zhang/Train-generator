@@ -1,0 +1,21 @@
+{
+  "data_path": "/home/lthpc/datasets",
+  "train_path": "/home/lthpc/datasets",
+  "epsilon": 0.3,
+  "learning_rate_G": 0.01,
+  "batch_size": 256,
+  "momentum": 0.9,
+  "epochs": 500,
+  "schedule": 10,
+  "gamma": 0.5,
+  "test_bs": 100,
+  "target": true,
+  "num_classes":10,
+  "target_class": 0,
+
+  "save_suffix": "",
+  "model_name": ["net1","net2"],
+  "margin": 200.0,
+  "log_interval": 10,
+  "model_path":"/home/lthpc/workspace/zhangshudong/adve/attacks/black_box/Transfer_hard_label/mnist_models/checkpoints/"
+}
